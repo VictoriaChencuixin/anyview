@@ -1,0 +1,206 @@
+/*<<<<<<<<<<<<<<<<<  发现页面样式  >>>>>>>>>>>>>>>>>>>>>>*/
+.bannerImg{
+    background-color: #25a6d9;
+    height: 60px;
+    width: 100%;
+}
+.find{
+    color: white;
+    line-height: 60px;
+}
+.findTable{
+    background-color: white;
+    margin: 20px 0;
+    width: 100%;
+}
+.findCol{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid #F4F4F4;
+}
+.findImg{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+/*<<<<<<<<<<<<<<<<<  书架页面样式  >>>>>>>>>>>>>>>>>>>>>>*/
+.bookJiaTable{
+    background-color: white;
+    width:100%;
+    padding-top: 17px;
+}
+.bookJiaImg{
+    font-size:5px;
+    margin: 0 auto;
+    width: 64px;
+    height: 90px;
+    position: relative;
+}
+.bookJiaImg img{
+    width: 64px;
+    height: 90px;
+}
+.bookJiaImg span{
+   position: absolute;
+    top:0;
+    left:2px;
+    right: 2px;
+}
+/*<<<<<<<<<<<<<<<<<  书城页面样式  >>>>>>>>>>>>>>>>>>>>>>*/
+.addBorder {
+    border-bottom: 2px solid white;
+    color: white;
+}
+.orderTitle {
+    display: flex;
+    justify-content: center;
+    background-color: #2979da;
+    max-height: 520px;
+    color: cornsilk;
+}
+.orderTitleItem {
+    width: 24%;
+    height: 55px;
+    line-height: 55px;
+    background-color: transparent;
+    margin: auto;
+    text-align: center;
+}
+.carouselItem {
+    background-color: #F4F4F4;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.classifyDiv{
+    margin: 5px 10px;
+    border: 1px solid #F4F4F4;
+    background-color: white;
+    border-radius: 4px;
+
+}
+.caption{
+    padding: 8px;
+}
+.caption span{
+    border-left:3px solid orange;
+    margin: 0 5px;
+
+}
+
+.classifyCol{
+    font-size: 15px;
+    border: 1px solid #F4F4F4;
+    padding:8px 2px;
+    text-align: center;
+}
+.relative{
+    position: relative;
+    width: 90%;
+    margin: 10px;
+}
+.button{
+    width: 50px;
+    height: 36px;
+    background-color: orange;
+    position: absolute;
+    right: -8px;
+    color: white;
+}
+.button ons-icon{
+    position: absolute;
+    top: 8px;
+    left: 15px;
+}
+.input{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+    position: absolute;
+    border: hidden;
+}
+.allSearch{
+    width: 100px;
+    background-color: orange;
+    margin-top: 50px;
+    color: white;
+    padding: 5px 10px;
+}
+.list{
+    margin: 0 10px;
+    font-size: 15px;
+}
+
+.padding10{
+    padding: 10px;
+}
+.marginLeft10{
+    margin-left: 10px;
+}
+/*<<<<<<<<<<<<<<<<<  我的页面样式  >>>>>>>>>>>>>>>>>>>>>>*/
+.myHeader{
+    width: 100%;
+    height: 200px;
+    background-color: #4cd964;
+    position: relative;
+}
+.myImg{
+
+    width:80px;
+    height:80px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+    left:42%;
+}
+.name{
+    color: white;
+    position: absolute;
+    top: 125px;
+    left: 35%;
+}
+.ons-list{
+    width: 100%;
+    margin: 0;
+}
+/*<<<<<<<<<<<<<<<<<  color  >>>>>>>>>>>>>>>>>>>>>>*/
+.orange{
+    color: orange;
+}
+.lightGray{
+    color: lightgray;
+}
+.gray{
+    color: gray;
+}
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+.skyBlue{
+    color: skyblue;
+}
+.aqua{
+    color: aqua;
+}
+.blue{
+    color:#2979da;;
+}
+/*<<<<<<<<<<<<<<<<<  菜单页面样式  >>>>>>>>>>>>>>>>>>>>>>*/
+.menuList{
+    color: white;
+    width: 100px;
+    margin: 20px auto;
+    font-size: 14px;
+}
+.menuList ons-icon{
+    margin: 0 10px;
+}

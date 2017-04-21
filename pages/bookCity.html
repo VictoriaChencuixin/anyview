@@ -1,0 +1,142 @@
+<ons-page ng-controller="bookCityController" style="background-color: #F4F4F4">
+    <div class="orderTitle" style="height: 60px;background-color: #25a6d9">
+        <div class="orderTitleItem" ng-class="{addBorder:$index==index}"
+             ng-repeat="title in titles" ng-click="change($index)">{{title.name}}
+        </div>
+    </div>
+    <ons-carousel var="carousels" style="width: 100%;height: 700px" swipeable auto-scroll overscrollable ons-postchange="changeCarousel()" auto-refresh>
+        <!-- 分类 -->
+        <ons-carousel-item>
+            <div class="carouselItem">
+                <!-- 强烈推荐 -->
+                <div class="classifyDiv">
+                    <ons-row>
+                        <ons-col class="caption" colspan="2">
+                            <span></span>强烈推荐
+                        </ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">降服女总裁</ons-col>
+                        <ons-col class="classifyCol">天青色等烟雨</ons-col>
+                        <ons-col class="classifyCol">做自己的女神</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">龙抬头</ons-col>
+                        <ons-col class="classifyCol">完美有多美</ons-col>
+                        <ons-col class="classifyCol">激情玉米地</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">三生三世</ons-col>
+                        <ons-col class="classifyCol">读书跨年</ons-col>
+                        <ons-col class="classifyCol">更多</ons-col>
+                    </ons-row>
+                </div>
+                <!-- 男生 -->
+                <div class="classifyDiv">
+                    <ons-row>
+                        <ons-col class="caption" colspan="2">
+                            <span></span>男生
+                        </ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">现代都市</ons-col>
+                        <ons-col class="classifyCol">天青色等烟雨</ons-col>
+                        <ons-col class="classifyCol">做自己的女神</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">龙抬头</ons-col>
+                        <ons-col class="classifyCol">完美有多美</ons-col>
+                        <ons-col class="classifyCol">激情玉米地</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">三生三世</ons-col>
+                        <ons-col class="classifyCol">读书跨年</ons-col>
+                        <ons-col class="classifyCol">更多</ons-col>
+                    </ons-row>
+                </div>
+                <!-- 女生 -->
+                <div class="classifyDiv">
+                    <ons-row>
+                        <ons-col class="caption" colspan="2">
+                            <span></span>女生
+                        </ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">现代都市</ons-col>
+                        <ons-col class="classifyCol">天青色等烟雨</ons-col>
+                        <ons-col class="classifyCol">做自己的女神</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">龙抬头</ons-col>
+                        <ons-col class="classifyCol">完美有多美</ons-col>
+                        <ons-col class="classifyCol">激情玉米地</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">三生三世</ons-col>
+                        <ons-col class="classifyCol">读书跨年</ons-col>
+                        <ons-col class="classifyCol">更多</ons-col>
+                    </ons-row>
+                </div>
+                <!-- 出版 -->
+                <div class="classifyDiv">
+                    <ons-row>
+                        <ons-col class="caption" colspan="2">
+                            <span></span>出版
+                        </ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">现代都市</ons-col>
+                        <ons-col class="classifyCol">天青色等烟雨</ons-col>
+                        <ons-col class="classifyCol">做自己的女神</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">龙抬头</ons-col>
+                        <ons-col class="classifyCol">完美有多美</ons-col>
+                        <ons-col class="classifyCol">激情玉米地</ons-col>
+                    </ons-row>
+                    <ons-row>
+                        <ons-col class="classifyCol">三生三世</ons-col>
+                        <ons-col class="classifyCol">读书跨年</ons-col>
+                        <ons-col class="classifyCol">更多</ons-col>
+                    </ons-row>
+                </div>
+            </div>
+        </ons-carousel-item>
+        <!-- 搜索 -->
+        <ons-carousel-item >
+            <div class="carouselItem" style="background-color: white">
+                <div class="relative">
+                    <input type="text" placeholder="美女" class="input" >
+                    <span class="button">
+                        <ons-icon icon="ion-ios-search"></ons-icon>
+                    </span>
+                </div>
+                <div class="allSearch">大家都在搜</div>
+                <div class="list">
+                    <ons-list>
+                        <ons-list-item>
+                            <span class="orange">1.</span>翡翠王<span class="lightGray">/步行天下</span>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <span class="orange">2.</span>狂风逆天：邪王嗜宠小毒妃<span class="lightGray">/穆晓伟</span>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <span class="orange">3.</span>英雄联盟之荣耀崛起<span class="lightGray">/东城十四少</span>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <span class="orange">4.</span>英雄联盟之荣耀崛起<span class="lightGray">/东城十四少</span>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <span class="orange">5.</span>疼妻入骨<span class="lightGray">/东城十四少</span>
+                        </ons-list-item>
+                        <ons-list-item>
+                            <span class="orange">5.</span>疼妻入骨<span class="lightGray">/东城十四少</span>
+                        </ons-list-item>
+
+                    </ons-list>
+                </div>
+
+            </div>
+        </ons-carousel-item>
+    </ons-carousel>
+</ons-page>
